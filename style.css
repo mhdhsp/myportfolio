@@ -531,3 +531,36 @@ form * {
 
     
 }
+
+
+.img-container
+{
+    display: none;
+    width:50%;
+    height: 50%;
+    position:fixed;
+    top:30%;
+    left:10%;
+    z-index: 9;
+
+}
+#image
+{
+   width: 800px;
+   height: 400px;
+    overflow: hidden;
+}
+
+.show{
+    display:block;
+}
+
+.close
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+    font-size: 5rem;
+    cursor: pointer;
+}
